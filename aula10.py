@@ -1,8 +1,3 @@
-#comentário 
+tupla = ('gabriel', 'matos')
 
-'''
-DocString
-'''
-"""
-DocString
-"""
+print(tupla[-2][0])
