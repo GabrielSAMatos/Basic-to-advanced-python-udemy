@@ -1,0 +1,8 @@
+#comentário 
+
+'''
+DocString
+'''
+"""
+DocString
+"""
