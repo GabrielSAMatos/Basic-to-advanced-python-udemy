@@ -1,8 +1,7 @@
-#comentário 
+def is_true():
+    return False
 
-'''
-DocString
-'''
-"""
-DocString
-"""
+if is_true():
+    print('Do something')
+else:
+    print("Don't do something ")

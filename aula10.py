@@ -1,3 +1,7 @@
-tupla = ('gabriel', 'matos')
+#0123456789101112
+#Hello, world!
+#-13121110987654321
+var = 'Hello, world!'
 
-print(tupla[-2][0])
+
+print(var[0:5], var[7:12])
