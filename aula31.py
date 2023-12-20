@@ -9,4 +9,8 @@ person = {
     ],
 }
 
-print(list(person.items())) 
+#print(list(person.items()))  
+
+dont_exist = 'Dont exist'
+
+print(person.get('hair_cut', dont_exist))
