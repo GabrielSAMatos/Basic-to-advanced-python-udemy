@@ -4,6 +4,7 @@ def gen1():
     yield 3
 
 def gen2(gen):
+    print('hi')
     yield from gen
     yield 4
     yield 5
@@ -15,5 +16,11 @@ def gen3():
     yield 9
 
 g = gen2(gen3())
+i = []
 for n in g:
-    print(n)
+    i.append(n)
+i = tuple(i)
+
+print(type(g))
+print(i)
+print(type(i))

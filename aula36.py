@@ -12,7 +12,6 @@ products = [
 ]
 
 
-p(products)
 new_products = [ 
     {**product, 'price': product['price']*1.10}
     if product['price'] > 20 else {**product}
@@ -20,6 +19,7 @@ new_products = [
     if product['price'] > 10
 ]
 
+p(new_products)
 
 list_ = [
     (' ')

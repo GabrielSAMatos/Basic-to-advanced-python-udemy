@@ -12,13 +12,3 @@ def make_multiplier(multiplier):
 print(execute(lambda x,y: x + y, 2,3))
 
 print(execute(lambda x,y: x * y, 2,3))
-
-
-def um(num):
-    print()
-
-
-
-
-
-
